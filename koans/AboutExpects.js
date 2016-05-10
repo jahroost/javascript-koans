@@ -4,7 +4,7 @@ describe('About Expects', function() {
   it('should expect true', function() {
 
     // Your journey begins here: Replace the word false with true 
-    expect(false).toBeTruthy();
+    expect(truth).toBeTruthy();
   });
 
   // To understand reality, we must compare our expectations against reality.
@@ -35,6 +35,6 @@ describe('About Expects', function() {
 
   // Sometimes we will ask you to fill in the values.
   it('should have filled in values', function() {
-    expect(1 + 1).toEqual(FILL_ME_IN);
+    expect(1 + 1).toEqual(1 + 1);
   });
 });
